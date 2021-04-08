@@ -1,5 +1,5 @@
 discord.py
-import asyncio
-import openpyxl
-import datetime
-import time
+asyncio.py
+openpyxl.py
+datetime.py
+time.py

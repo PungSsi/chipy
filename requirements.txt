@@ -1,0 +1,5 @@
+discord.py==0.16.12
+import asyncio
+import openpyxl
+import datetime
+import time

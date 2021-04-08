@@ -3,10 +3,9 @@ import asyncio
 import openpyxl
 import datetime
 import time
+import os
 
 client = discord.Client()
-
-token = "NzA0MzE5MjUwMTU1NzAwMjI0.Xqbaag.1RS2FFFShJBqXOxKenArWhZmRes"
 
 
 @client.event
@@ -332,5 +331,5 @@ async def on_message(message):
 
 
 
-
-client.run(token)
+access_token = os.environ["BOT_TOKEN"]
+client.run(access_token)
